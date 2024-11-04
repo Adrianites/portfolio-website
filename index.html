@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Portfolio Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container"></div>
+    <button id="contact-button">Contact</button>
+    <button id="reset-button">Reset</button>
+    <button id="others-button">Others</button>
+    <div id="contact-popup" class="popup">
+        <h2>Contact Information</h2>
+        <p>Email: adrianreichardt050@gmail.com</p>
+        <p>Discord:<a href="https://discord.gg/Fw7ZCCNhxY">Server Link</a></p>
+        <p>GitHub: <a href="https://github.com/Adrianites">Adrian</a></p>
+        <button id="close-contact">Close</button>
+    </div>
+    <div id="others-popup" class="popup">
+        <h2>Others</h2>
+        <ul id="others-list">
+            <li><a href="22">Games Server List</a></li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <button id="close-others">Close</button>
+    </div>
+    <div id="password-popup" class="popup">
+        <h2>Password Required</h2>
+        <input type="password" id="password-input" placeholder="Enter password">
+        <button id="submit-password">Submit</button>
+        <button id="close-password">Close</button>
+        <p id="password-message" class="error-message"></p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3/dist/phaser.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
