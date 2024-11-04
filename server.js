@@ -2,11 +2,15 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors'); // Import the cors middleware
 const path = require('path');
+const dotenv = require('dotenv'); // Import dotenv to load environment variables
+
+dotenv.config(); // Load environment variables from .env file
+
 const app = express();
 const PORT = 3000;
 
-// Replace this with a secure method of storing and checking passwords
-const VALID_PASSWORD = 'hotdog';
+// Use the environment variable for the password
+const VALID_PASSWORD = process.env.VALID_PASSWORD;
 
 app.use(bodyParser.json());
 app.use(cors()); // Enable CORS for all routes
