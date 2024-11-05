@@ -19,9 +19,6 @@ Ever thought portfolios should be a little more… *interactive*? Me too! In **P
 ## 🚀 **Getting Started**
 Check out the website: (website-link-once-its-done)
 
-## 🤝 **Contributing**
-Have an idea to make this more fun? **Feel free to fork the repo and submit a pull request!**
-
 ## 📫 **Contact**
 Feel free to reach out via **[email](mailto:adrianreichardt050@gmail.com)** or **[Join my Discord server](https://discord.gg/Fw7ZCCNhxY)** if you’d like to collaborate, or just say hi!
 
